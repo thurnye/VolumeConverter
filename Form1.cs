@@ -1,10 +1,15 @@
 namespace VolumeConverter
 {
-    public partial class Form1 : Form
+    public partial class volumeConverter : Form
     {
-        public Form1()
+        public volumeConverter()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
