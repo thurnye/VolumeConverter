@@ -68,6 +68,7 @@
             this.cancelButton.TabIndex = 3;
             this.cancelButton.Text = "Clear";
             this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
             // convertButton
             // 
@@ -77,6 +78,7 @@
             this.convertButton.TabIndex = 4;
             this.convertButton.Text = "Convert";
             this.convertButton.UseVisualStyleBackColor = true;
+            this.convertButton.Click += new System.EventHandler(this.convertButton_Click);
             // 
             // clLabel
             // 
@@ -86,7 +88,6 @@
             this.clLabel.Size = new System.Drawing.Size(25, 20);
             this.clLabel.TabIndex = 5;
             this.clLabel.Text = "CL";
-            this.clLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // litreLabel
             // 
