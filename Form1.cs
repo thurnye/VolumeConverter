@@ -25,6 +25,16 @@ namespace VolumeConverter
             litre = cl / 100;
             litreTextBox.Text = litre.ToString();
         }
+
+        private void clLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
